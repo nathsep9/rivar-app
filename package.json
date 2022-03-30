@@ -1,0 +1,16 @@
+{
+  "name": "rivar-app",
+  "version": "1.0.0",
+  "description": "Aplicación social para los militares",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "app:dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angie Natalia Antonio Bello",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.0.0"
+  }
+}

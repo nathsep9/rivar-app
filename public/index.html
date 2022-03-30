@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="my-3">Welcome!</h3>
+        <div class="row">
+            <div class="col-6">
+                <h5>Register</h5>
+                <!-- form -->
+                <form id="register" method="POST" class="px-3">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="alias">Alias</label>
+                        <input type="text" class="form-control" id="alias" name="alias" placeholder="Enter alias">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password"
+                            placeholder="Enter password">
+                    </div>
+                    <div class="form-group has-validation">
+                        <label for="password_confirmation">Confirm Password</label>
+                        <input type="password" class="form-control" id="password_confirmation"
+                            name="password_confirmation" placeholder="Enter password">
+                    </div>
+                    <div class="form-group">
+                        <label for="date_birth">Date of birth</label>
+                        <input type="date" class="form-control" id="date_birth" name="date_birth">
+                    </div>
+                    <div class="d-flex justify-content-end my-3">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <h5>Login</h5>
+                <!-- form -->
+                <form id="login" method="POST" class="px-3">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="login-email" name="email"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="login-password" name="password"
+                            placeholder="Enter password">
+                    </div>
+                    <div class="d-flex justify-content-end my-3">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/sha512.min.js"></script>
+    <script src="./common.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
